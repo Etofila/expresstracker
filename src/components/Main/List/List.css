@@ -1,0 +1,19 @@
+.list > .avatarIncome {
+    background-color: rgb(0, 255, 98);
+    /* color: red; */
+}
+.list > .avatarExpense {
+    background-color: rgb(212, 56, 56);
+    /* color: red; */
+}
+
+.mainList {
+    max-height:  12em ;
+    overflow-y: scroll;
+    max-width: none;
+    text-align: center;
+}
+
+
+
+/* sx={{ backgroundColor: transaction.type === 'Expense' ? 'red' : 'green' }} */

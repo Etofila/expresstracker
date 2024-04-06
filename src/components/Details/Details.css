@@ -1,0 +1,11 @@
+ 
+.john > .income {
+    background-image: linear-gradient(to right, rgb(23, 23, 68), rgb(209, 212, 230), rgb(39, 39, 112));
+    border-bottom: 10px solid rgb(0, 0, 0);
+  }
+
+
+  .john > .expense {
+    background-image: linear-gradient(to right, rgb(16, 158, 214), rgb(209, 212, 230), rgb(16, 158, 214));
+    border-bottom: 10px solid rgb(0, 0, 0);  
+  }

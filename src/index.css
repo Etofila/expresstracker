@@ -1,0 +1,26 @@
+#root, body, html {
+  /* height: 100%; */
+  margin: 0;
+}
+ * {
+  margin: 0;
+  padding: 0;
+ }
+body {
+  background: url(./asserts/pud.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  opacity: 0.9;  
+}
+
+/* #root, body, html {
+  height: 100%;
+  margin: 0;
+}
+ 
+body {
+  background-color: rgb(100, 197, 165);
+   background-size: cover;
+   opacity: 0.9;  
+} */

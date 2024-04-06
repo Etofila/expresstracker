@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+  .desktop {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile {
+      display: none;
+  }
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
