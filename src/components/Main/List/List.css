@@ -10,7 +10,7 @@
 .mainList {
     max-height:  12em ;
     overflow-y: scroll;
-    max-width: none;
+    /* width: 90%; */
     text-align: center;
 }
 

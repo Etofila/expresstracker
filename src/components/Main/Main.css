@@ -1,5 +1,8 @@
 .Luke > .classesRoot {
-    background-image: linear-gradient(to right, rgb(124, 57, 121), rgb(209, 212, 230), rgb(133, 65, 118));
+    background-image: linear-gradient(to right, rgb(211, 16, 201), rgb(209, 212, 230), rgb(211, 16, 201));
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 0;
 }
 
           /* Luke > .classesRoot {

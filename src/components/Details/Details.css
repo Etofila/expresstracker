@@ -1,11 +1,14 @@
  
 .john > .income {
-    background-image: linear-gradient(to right, rgb(23, 23, 68), rgb(209, 212, 230), rgb(39, 39, 112));
-    border-bottom: 10px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to right, green, rgb(54, 132, 151), green);
+    border: 5px solid white;
+    border-radius: 15px 50px;
+
   }
 
 
   .john > .expense {
-    background-image: linear-gradient(to right, rgb(16, 158, 214), rgb(209, 212, 230), rgb(16, 158, 214));
-    border-bottom: 10px solid rgb(0, 0, 0);  
+    background-image: linear-gradient(to right, rgb(190, 25, 25), rgb(221, 134, 34), rgb(190, 25, 25));
+    border: 5px solid white;
+    border-radius: 50px 15px;  
   }

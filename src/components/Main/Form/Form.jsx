@@ -69,7 +69,7 @@ const Form = () => {
        <Grid item xs={6}>
           <TextField type="date" label="Date" fullWidth value={formData.date} onChange={(e) => setFormData({ ...formData, date:  e.target.value })}/>
        </Grid>
-       <Button className='createBtm'  variant="outlined" color="primary" align='center' fullWidth  onClick={createTransaction}>Create</Button>
+       <Button className="createBtm" align="center" variant="outlined" color="primary" onClick={createTransaction}  fullWidth sx="12" >Create</Button>
     </Grid>
   )
   }

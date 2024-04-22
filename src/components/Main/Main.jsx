@@ -15,9 +15,9 @@ const Main = () => {
      
 
   return (
-    <div className="Luke">
+    <div className="Luke" >
       <Card  className='classesRoot' style={{ margin:'20px'}}>
-          <CardHeader title="Expense Tracker" subheader="powered by speechly" />
+          <CardHeader align="center" title="Expense Tracker" subheader="powered by speechly" />
           <CardContent>
             <Typography align="center" variant="h6">Total Balance ${balance}</Typography>
             <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px', backgroundImage: 'red', }}>
@@ -28,7 +28,7 @@ const Main = () => {
           </CardContent>
           <CardContent className='cardContent'>
              <Grid container spacing={2}>
-                 <Grid item >
+                 <Grid item xs={12}>
                     <List />
                  </Grid>
              </Grid>
