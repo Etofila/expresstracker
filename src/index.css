@@ -20,6 +20,5 @@ body {
 body {
   background-image: repeating-linear-gradient(black, rgb(69, 69, 124) 10%, black 10%);
    background-size: cover;
-   height: 100%; 
-   width: 100%;
+   opacity: 0.9;
 }
